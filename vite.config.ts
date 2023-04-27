@@ -12,6 +12,7 @@ export default defineConfig({
     // 配置路径别名，可以使用@/资源路径
     alias: {
       "@": resolve("./src"),
+      // "#": resolve('./')
     },
   },
   // 开发服务器配置
